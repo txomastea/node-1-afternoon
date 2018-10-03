@@ -74,6 +74,7 @@ export default class ChatWindow extends Component {
                  onChange={ this.handleChange }
                  value={ this.state.text }
           />
+          <input type="text" placeholder="whats your name"/>
         </div>
       </div>
     )
